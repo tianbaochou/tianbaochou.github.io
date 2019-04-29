@@ -1,31 +1,19 @@
-> 写写代码，做做设计，  
-> 离开世界之前，一切都是过程。
-
-Hey，我是黄玄，病毒种，进化程度不明，多出没于[博客](https://huangxuan.me)、[微博](weibo.com/huxpro)、[知乎](https://www.zhihu.com/people/huxpro/pins/posts)、[Twitter](https://twitter.com/Huxpro/)、[Github](http://github.com/huxpro)、[Medium](https://medium.com/@Huxpro) 等地带，绝招尚在开发中。
-
-职业是软件工程师，[Web 工会](https://medium.com/ben-and-dion/team-web-3315aa447fb2#.359a9c6cl)活跃成员。目前在 [Facebook](https://www.facebook.com/) 写 [Reason](https://reasonml.github.io/) 与 [Messenger.com](http://messenger.com/) ，曾被招募为淘宝网 · [阿里旅行](http://alitrip.com)前端工程师、微影时代 · [微票儿](http://www.wepiao.com/?r=movie)前端基础工程团队负责人、[饿了么](https://ele.me/) · 大前端团队 · [PWA 顾问](https://medium.com/elemefe/upgrading-ele-me-to-progressive-web-app-2a446832e509)。
-
-一些作品和开源软件项目，👉 戳 [Portfolio](/portfolio)、[Github](http://github.com/huxpro)、[演说.io](https://zhuanlan.zhihu.com/p/21280918)。 
 
 
-##### Talks
+![img](/img/post_bg/post-bg-flow.jpg)
 
-- [Upgrading to Progressive Web Apps][9] · [JSConf CN 上海 2017](http://2017.jsconf.cn/)
-- Building Progressive Web Apps · [CSDI 广州 2017](http://www.csdisummit.com/)
-- The State of Progressive Web App · GDG IO Redux 北京 2017
-- 炒冷饭 · PWA 到底是个什么玩意？· Baidu HQ 北京 2017
-- [Service Worker 101][5] · GDG DevFest 北京 2016
-- [Progressive Web App，复兴序章][4] · [QCon 上海 2016](http://2016.qconshanghai.com/presentation/3111)
-- Progressive Web App 之我见 · GDG IO Redux 北京 2016
-- [CSS Still Sucks 2015][2] · 2015
-- [JavaScript 模块化七日谈][1] · 2015
+## 写博客目的
 
-[1]: //huangxuan.me/2015/07/09/js-module-7day/
-[2]: //huangxuan.me/2015/12/28/css-sucks-2015/
-[3]: //huangxuan.me/2016/06/05/pwa-in-my-pov/
-[4]: //huangxuan.me/2016/10/20/pwa-qcon2016/
-[5]: //huangxuan.me/2016/11/20/sw-101-gdgdf/
-[6]: https://yanshuo.io/assets/player/?deck=58ac8598b123db0067292f92 "PWA Rehashing"
-[7]: https://yanshuo.io/assets/player/?deck=593ad6fbfe88c2006a0a0d6d "The State of PWA"
-[8]: https://yanshuo.io/assets/player/?deck=594d673d570c357d0698a950 "Building PWA"
-[9]: //huangxuan.me/jsconfcn2017/
++ &ensp; 从大二开始就有想法建立一个个人博客，无奈大二后水了很多像数学建模方面的大学生竞赛赛，根本无心整理自己所学。
+大学毕业后的近一年时间内，自学了李航的统计基础,学着推导很多公式，断断续续看了一些机器学习的在线课程，但是因为身在创业公司，且没有学会多线程工作学习，很多知识没有深入推敲应用，基本过段时间忘得差不多了故至今还停留在机器学习的门外!  
+&ensp; 本人愚钝，自觉大学虽是计算机科班出身，但是上不会各种高深算法，下不会精通各种编程语言。深知互联网这种东西更新换代过快，精通某些语言，不如扎实
+数理基础。故想上小硕沉沉淀一两年，无奈两次考浙大都失败,最近想开了,即使上浙大,估计以本人资质也很难在一两年内学有所成。再者，纵观互联网上的资料质量良莠不齐，
+且诸如《XXX从入门到精通》、《7天学会XXX》等书籍横行，各种培训班更是想急功近利的大开培训速成班，浮躁的风气弥漫着整个互联网，让本人深感不适。  
+&ensp; 基于此特开个个人博客,记录一个小阶段的学习成果以及阶段性的个人理解,也欢迎同道中人交流问题,本人后期将尽量分别用中英文方式记录学习的内容
+以便慢慢提高专业素养。  
+
+> 在此也感谢中央民族大学能在17年的调剂中接受本人，希望在2017-2019年这几年时间能和民大共成长！   
+<p>
+<div style=" position:relative;margin-top:.2em;float:right;font-style:italic" >  写于2017/4/9日凌晨</div>  
+
+
