@@ -69,21 +69,8 @@ tag: markdown
     createIssueManually: True
     ```
 
-    + 将`comments.html`插入到`_layout/post.html`中的`post-contianer`容器最下面
+    + 将`comments.html`插入到`_layout/post.html`中的`post-contianer`容器最下面 `{% include comments.html %}`
 
-     
-     ```html
-         <!-- Post Container -->
-            <div class="
-                col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1
-                post-container">
-
-                
-                 <!--添加gitalk， 将下面的注释去掉即可）-->
-                 <!--{% include comments.html %}-->
-            </div>
-     ```
 
 ## 5. 添加latex支持
 
