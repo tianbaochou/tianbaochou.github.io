@@ -35,7 +35,9 @@ tag: markdown
     + 生成一个GitHub Application之后，网页会显示一个clientID和一个clientSecret,将其复制到代码中。其中这两个参数**只会显示一次**, 所以一定要记得填写完之后保存这两个参数
 
     + 添加`comments.html`到`_include/`文件夹下，添加如下内容: 
-        ```html
+
+        ```
+        
         <section class="post-comments">
         <div id="gitalk-container"></div> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
         <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
