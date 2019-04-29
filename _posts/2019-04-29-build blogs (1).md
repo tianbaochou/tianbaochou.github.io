@@ -19,8 +19,10 @@ tag: markdown
 
 ## 2. 下载模板
 
-+ ```bash
-    git clone https://github.com/Huxpro/huxpro.github.io``` 
++ 
+```bash
+    git clone https://github.com/Huxpro/huxpro.github.io
+``` 
 
 +  根据模板说明，在文件配置文件`_config.yml`替换相应的配置
 
@@ -36,8 +38,7 @@ tag: markdown
 
     + 添加`comments.html`到`_include/`文件夹下，添加如下内容: 
 
-        ```JS
-
+        ```html
         <section class="post-comments">
         <div id="gitalk-container"></div> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
         <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
@@ -54,8 +55,8 @@ tag: markdown
                 gitalk.render('gitalk-container')
         </script>
         </section>
-
         ```
+
     + 在`_config.yml`中添加`gitalk_clientID`, `gitalk_Secret`, `gitalk_repo`, `gitalk_owner`, `gitalk_admin`, `distractionFreeMode`，这些参数说明如下：
 
     ```yaml
@@ -71,27 +72,25 @@ tag: markdown
     + 将`comments.html`插入到`_layout/post.html`中的`post-contianer`容器最下面
 
      
-     ```JS
-
+     ```html
          <!-- Post Container -->
             <div class="
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
                 post-container">
 
-                ....
+                <!--.......--->
+                
                      <!--gitalk-->
                 {% include comments.html %}
             </div>
-
      ```
 
 ## 5. 添加latex支持
 
 在`_include/head.html`的`<head> </head>`之间添加`mathjax`支持
 
-```JS
-
+```html
     <!-- latex 支持 -->
     <script type="text/x-mathjax-config"> 
         MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); 
@@ -106,8 +105,6 @@ tag: markdown
     
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
     </script>
-
-
 ```
 
 ## 6. 创建xxx.github.io
@@ -119,12 +116,10 @@ tag: markdown
 ## 9. 将clone下来的模板文件中的`.git`删除，并重新用git初始化，建立本地仓库和远程仓库的连接
 
 ```shell
-
 rm -rf .git
 git init
 git commit -m"first commit"
 git remote add origin https://github.com/use_name/user_name.github.io.git #注意替换user_name为你自己的用户名!!!!
-
 ```
 
 ## 7. 书写格式
@@ -134,8 +129,8 @@ git remote add origin https://github.com/use_name/user_name.github.io.git #注�
 
 
 `2018-04-09-Hello.md`
-```yaml
 
+```yaml
 ---
 layout:     post
 title:      "Hello"
@@ -148,5 +143,4 @@ tags:
 ---
 
 ### 这里是内容！！！！！！！
-
 ```
