@@ -61,8 +61,13 @@ kramdown:
   syntax_highlighter: rouge  #若本地测试需安装 gem install rouge
 
 
-# Disqus settings
-disqus_username: zbabby
+# Gitalk settings
+gitalk_clientID : 05a4a303d4eb7b3760b8
+gitalk_Secret :  e0ce707a64eed2eb25a524e337cd30e09bfc3d34
+gitalk_repo : custom_discuss
+gitalk_owner :  tianbaochou
+gitalk_admin : tianbaochou
+distractionFreeMode : true
 
 # Netease settings
 netease_comment: false

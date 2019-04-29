@@ -60,6 +60,25 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- Use the docco color scheme of highlight.js to highlight the code in the page -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/docco.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+
+    <!-- latex 支持 -->
+    <script type="text/x-mathjax-config"> 
+        MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); 
+    </script>
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            processEscapes: true
+            }
+        });
+    </script>
+    
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
+    </script>
+
     <!-- ga & ba script hoook -->
     <script></script>
 </head>
