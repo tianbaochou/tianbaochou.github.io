@@ -67,6 +67,7 @@ tag: markdown
     ```
 
     + 将`comments.html`插入到`_layout/post.html`中的`post-contianer`容器最下面
+     
      ```html
          <!-- Post Container -->
             <div class="
@@ -78,7 +79,6 @@ tag: markdown
                      <!--gitalk-->
                 {% include comments.html %}
             </div>
-
      ```
 
 ## 5. 添加latex支持
@@ -142,5 +142,3 @@ tags:
 ### 这里是内容！！！！！！！
 
 ```
-
-
