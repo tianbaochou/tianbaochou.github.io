@@ -15,7 +15,7 @@ tag: stereo vision
 
 &ensp;   在讲坐标转化之前，很有必要介绍一下摄像机模型。摄像机模型中，最简单的应该就是针孔模型。在该模型中，我们不妨想象光线是从场景中的某个物体发射来，且仅仅是来自某个Q点的光线。最后，该点将在图像平面（projective plane )上被聚焦。如图1-1：
 
-![图1-1](/images/posts/stereo vision/original_model.PNG){:weight="450px" height="239px"}
+![图1-1](/img/posts/stereo vision/original_model.PNG){:weight="450px" height="239px"}
 
 
  上图中，由简单的相似三角形可得出:  
@@ -26,7 +26,7 @@ tag: stereo vision
 
  &ensp; 其中f是摄像机焦距。Z是摄像机到物体的距离，H是物体的高度（长度），h是图像平面上物体的高度（长度）。处于处理上简单的目的，我们调整针孔平面和图像平面的位置，并将针孔平面只留下一个针孔（作为投影中心），这也是实际的摄像机模型。如图1-2：    
 
- ![图1-2](/images/posts/stereo vision/fix_model.PNG){:weight="504px" height="180px"}
+ ![图1-2](/img/posts/stereo vision/fix_model.PNG){:weight="504px" height="180px"}
 
 
 &ensp; 上图中，光轴与图像平面的交点称为主点（principal point )。图1-1与1-2两种情况在数学上等价，即物体在图像平面上投影大小是相同的。这样（1）式中即变为：$ \frac{h}{f} = \frac{X}{Z} $ 。此时物体的像是正立的，因此负号去掉了。  
@@ -40,7 +40,7 @@ tag: stereo vision
 
 ### 2.1 世界坐标系与摄像机坐标系
 
-![图1-3](/images/posts/stereo vision/translate_coor.PNG){:weight="516px" height="388px"}
+![图1-3](/img/posts/stereo vision/translate_coor.PNG){:weight="516px" height="388px"}
 
 
 如图1-3 ，假设$(O_w,X_w,Y_w,Z_w)$为世界坐标系，$(O_c,X_c,Y_c,Z_c)$为摄像机坐标系。则可以用一个旋转矩阵 R 和一个平移矩阵 t 来表示这两个坐标系之间的变换。R 为3X3的正交变换矩阵，t 为3X1的向量。用齐次坐标系表示为：
@@ -79,7 +79,7 @@ $$
 
 &ensp; 前面提到的主点还记得吗，图像坐标系就是以主点g为坐标原点，而像素坐标系的原点O就是一个图像位置为（0，0）的位置。这两个坐标系之间的转换一般就只有平移变化了，如下图：  
 
-![图1-4](/images/posts/stereo vision/image_coor.PNG){:weight="450px" height="289px"}
+![图1-4](/img/posts/stereo vision/image_coor.PNG){:weight="450px" height="289px"}
 
 
 &ensp;这里的g坐标即是上面摄像机模型谈到的（cx, cy)。这样转化关系可写为：  

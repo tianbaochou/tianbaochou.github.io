@@ -64,7 +64,7 @@ tag: convex optimization
 + 当$\theta \in R$时表示直线
 
 
-![图2-1](/images/posts/convex optimization/chapter two/chapter_two_1.PNG)
+![图2-1](/img/posts/convex optimization/chapter two/chapter_two_1.PNG)
 
 **仿射集(affline set)**
 
@@ -134,7 +134,7 @@ $$
 &ensp; 为了直观理解选出文中画出的典型的凸集和非凸集的例子:
 图中（1）为凸集，因为其中任何两个点连接的线段上的点都在C中，而（2）为非凸集，因为图中两个黑点的连接的线段中有一部分点不在C中。
 
-![图2-2](/images/posts/convex optimization/chapter two/chapter_two_2.PNG)
+![图2-2](/img/posts/convex optimization/chapter two/chapter_two_2.PNG)
 
 
 **凸包(convex hull)**
@@ -154,11 +154,11 @@ $$
 $$
 ，则C为凸锥，从几何上直观理解如下图:
 
-![图2-3](/images/posts/convex optimization/chapter two/chapter_two_3.PNG)
+![图2-3](/img/posts/convex optimization/chapter two/chapter_two_3.PNG)
 
 锥是无限延伸的没有边界，为了区别锥和凸锥，下面举个例子:
 
-![图2-4](/images/posts/convex optimization/chapter two/chapter_two_4.PNG)
+![图2-4](/img/posts/convex optimization/chapter two/chapter_two_4.PNG)
 
 上图中$C_1 : y = \mid x \mid$为锥，但是不是凸锥，因为对于左边图像的一个点$x_1$和右边图像的点$x_2$之间组成的区域不在$C_1$中,
 而灰色区域$C_2 : y \geq \mid x \mid$为凸锥。
@@ -195,7 +195,7 @@ Any line is affline. If it passes through zeros, it is a subspace, hence also a 
 &ensp; 定义:  $$ \{ x \mid a^Tx = b \}， \quad a \neq 0， b \in R $$,
 Geometrically： $$ \{x \mid a^T(x-x_0) = 0 \} $$， 令$ a^Tx_0 = b $即可，见下图:
 
-![图2-5](/images/posts/convex optimization/chapter two/chapter_two_5.PNG)
+![图2-5](/img/posts/convex optimization/chapter two/chapter_two_5.PNG)
 
 则超平面分割的两个半空间分别为：
 
@@ -249,7 +249,7 @@ C &= \{(x,t) \in R^{n+1} \mid \parallel x \parallel_2 \leq t \} \\
 \end{aligned}
 $$
 
-![图2-6](/images/posts/convex optimization/chapter two/chapter_two_6.PNG)
+![图2-6](/img/posts/convex optimization/chapter two/chapter_two_6.PNG)
 
 #### **2.6 多面体(Polyhedron)**
 
@@ -263,7 +263,7 @@ $$
 
 从上面可以看出，多面体为有限个半空间与超平面的相交组成的部分,见下图:
 
-![图2-7](/images/posts/convex optimization/chapter two/chapter_two_7.PNG)
+![图2-7](/img/posts/convex optimization/chapter two/chapter_two_7.PNG)
 
 
 仿射集、射线、线段、半空间等都是多面体。
@@ -374,7 +374,7 @@ $P : R^{n+1} \rightarrow R^n, \quad domP = R^N \times R_{++}$ as $ P(z,t) = z / 
 
 举个简单的例子，小孔成像：
 
-![图2-8](/images/posts/convex optimization/chapter two/chapter_two_8.PNG)
+![图2-8](/img/posts/convex optimization/chapter two/chapter_two_8.PNG)
 
 透视函数满足: $$C \subseteq dom P 为凸，则其映像 P(C) = \{P(x) \mid x \in C \}$$为Convex Image。
 
@@ -452,7 +452,7 @@ A point $x \in S$是S中的极小值当且仅当：$(x-K)\cap = \{x\}$，这里$
 
 下图分别代表了最小元与极小元：
 
-![图2-9](/images/posts/convex optimization/chapter two/chapter_two_9.PNG)
+![图2-9](/img/posts/convex optimization/chapter two/chapter_two_9.PNG)
 
 &ensp; 为了区分这两个概念的区别，我们举个例子：
 
@@ -466,7 +466,7 @@ $$
 $\varepsilon_3$包含这些点，但是这两个椭圆之间无法比较（因为我们只定义了$\varepsilon_A \subseteq \varepsilon_B$这层关系，
 除非再限定了其他可以比较的条件：eg，椭圆面积等，否则无法比较大小）；但是却可以找到极小元$\varepsilon_2$，S中没有任何其他椭圆可以被它包含了。
 
-![图2-10](/images/posts/convex optimization/chapter two/chapter_two_10.PNG)
+![图2-10](/img/posts/convex optimization/chapter two/chapter_two_10.PNG)
 
 
 **注**
@@ -489,7 +489,7 @@ proof: 假设在欧几里得距离度量下，存在$c \in C, d in D$，使$\par
 不妨定义$a = d -c, \quad b = \frac{\parallel d \parallel_2^2 - \parallel c \parallel_2^2}{2}$，则
 $f(x) = a^Tx - b = (d-c)^T(x-1/2(d+c))$为分离超平面。下图是一个例子：
 
-![图2-11](/images/posts/convex optimization/chapter two/chapter_two_11.PNG)
+![图2-11](/img/posts/convex optimization/chapter two/chapter_two_11.PNG)
 
 >Strict seperation : $\forall x \in C，a^Tx < b ；\forall x \in D， a^Tx > b$
 
@@ -499,7 +499,7 @@ $f(x) = a^Tx - b = (d-c)^T(x-1/2(d+c))$为分离超平面。下图是一个例�
 若$a \neq 0$满足对任意$x \in C，a^Tx \leq a^Tx_0$，则超平面$$\{x \mid a^Tx = a^Tx_0 \}$$称为C在$x_0$点处的支持超平面。
 若从集合角度看，$$\{ x \mid a^Tx = a^Tx_0 \}$$是点C处的正切平面。下图是一个例子：
 
-![图2-12](/images/posts/convex optimization/chapter two/chapter_two_12.PNG)
+![图2-12](/img/posts/convex optimization/chapter two/chapter_two_12.PNG)
 
 **性质**
 
@@ -509,7 +509,7 @@ $f(x) = a^Tx - b = (d-c)^T(x-1/2(d+c))$为分离超平面。下图是一个例�
 
 &ensp; 这两个性质还是比较容易得到的，给个比较通俗**但不是很严谨的证明**：假设C为有边界的凸集，由凸集的性质知：$$\theta x_1 + (1-\theta)x_2，\theta \geq 0$$，则对于边界上的点$x_1$，$x_2$沿边界无限逼近$x_1$的时候，此时由$x_1，x_2$组成的直线可以代替过它们的边界线，则此时当$x_2 \rightarrow x_1$时，无论$x_1$点处是不存在切线(eg:$y \geq \mid x \mid，x_1 = 0$)，还是有切线$\iota$，都能找到一个超平面使所有点要么在这条直线上方，要么在下方。可见图：
 
-![图2-13](/images/posts/convex optimization/chapter two/chapter_two_13.PNG)
+![图2-13](/img/posts/convex optimization/chapter two/chapter_two_13.PNG)
 
 
 ### **Part 6 : 2.11. 对偶堆与广义不等式（dual cones and generalized inequalities)**
@@ -519,7 +519,7 @@ $f(x) = a^Tx - b = (d-c)^T(x-1/2(d+c))$为分离超平面。下图是一个例�
 &ensp; 令K为堆，则集合：$$ K^* = \{ y \mid \forall x \in K, \quad x^Ty \geq 0 \}$$为K的对偶堆，且有性质：
 无论K是否为凸，$ K^* $总是为凸锥。从几何角度来看：$y \in K^* $, 当且仅当$-y$为K在原点的支持超平面的法线：
 
-![图2-14](/images/posts/convex optimization/chapter two/chapter_two_14.PNG)
+![图2-14](/img/posts/convex optimization/chapter two/chapter_two_14.PNG)
 
 &ensp;如上图，(a)中$ y \in K^* $，因为其代表的半空间包含$K$，即$-y$为$K$在原点的支持超平面的法线，而(b)中 $ z \notin K^* $，因为其代表的半空间有一部分不包含$K$，即不是$K$在原点的支持超平面的法线。
 
@@ -548,5 +548,5 @@ $f(x) = a^Tx - b = (d-c)^T(x-1/2(d+c))$为分离超平面。下图是一个例�
 其中，$\preceq_{k^* } $为广义不等式$\preceq_k$的对偶形式，由$K^* = K$，则$\lambda \preceq_{k^* } \mu$，当且仅当$\forall x \succeq_k 0, \quad \lambda^Tx \leq \mu^Tx$
 
 > 这章本人花了大量时间整理，以便后面章节能理顺一些基本公式的推导过程，文中难免有局限于当时的历史因素，可能存在不同程度的错误，若有童鞋发现，欢迎指出。
-> 文中所有的图和公式都是本人用Word和Latex公式制作，若有童鞋要用到欢迎到[zbabby](https://github.com/tianbaochou/tianbaochou.github.io/tree/master/images/posts)的convex optimization相应章节录中下载。希望大家使用的
+> 文中所有的图和公式都是本人用Word和Latex公式制作，若有童鞋要用到欢迎到[zbabby](https://github.com/tianbaochou/tianbaochou.github.io/tree/master/img/posts)的convex optimization相应章节录中下载。希望大家使用的
 时候可以注明出处，谢谢!

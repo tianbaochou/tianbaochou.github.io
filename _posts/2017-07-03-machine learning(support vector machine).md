@@ -12,7 +12,7 @@ tag: machine learning
 
 假设空间中有两类数据点，要找出一个超平面(hyperplane)使得各点能正确分类，如下图:
 
-![图1](/images/posts/machine learning/support vector machine/img1.jpg)
+![图1](/img/posts/machine learning/support vector machine/img1.jpg)
 
 图中超平面表示为$w^{T}x+b = 0$，则空间中任何一个点$x$到该超平面的距离为$\frac{\vert w^{T}x+b \vert}{\Vert{w} \Vert}$
 
@@ -29,7 +29,7 @@ tag: machine learning
 
 这里所谓的边界上的点，即离超平面S最近的点，见下图A点，margin的定义可以看如下图：
 
-![图二](/images/posts/machine learning/support vector machine/img2.jpg)
+![图二](/img/posts/machine learning/support vector machine/img2.jpg)
 
 综上，我们得出原始的目标函数:
 
@@ -76,7 +76,7 @@ $$
 $$
 
 
-![图三](/images/posts/machine learning/support vector machine/img3.jpg)
+![图三](/img/posts/machine learning/support vector machine/img3.jpg)
 
 现在假设我们求目标函数$f(x)$的最大值，constraint为$g(x) \geq 0$，则对于取得最优值的点x有两种情况:
 
@@ -85,7 +85,7 @@ $$
 因此，$\nabla{f(x)} = -\lambda \nabla{g(x)}，
 \lambda > 0$。如下图所示:
 
-![图四](/images/posts/machine learning/support vector machine/img4.jpg)
+![图四](/img/posts/machine learning/support vector machine/img4.jpg)
 
 ### **2.2. 引出拉格朗日对偶问题**
 
@@ -175,7 +175,7 @@ $$
 第一部分我们假设训练数据在特征空间线性可分，这在现实应用中很难满足，因此我们适当放宽条件，引入松弛变量$\xi_{n} \geq 0, \quad n =1, 2, ..., N$,
 $\xi_{n}$和$x_n$一 一对应，如下图：
 
-![图5](/images/posts/machine learning/support vector machine/img5.jpg)
+![图5](/img/posts/machine learning/support vector machine/img5.jpg)
 
 
 $$
@@ -297,7 +297,7 @@ SMO算法每次迭代选择两个拉格朗日乘子参与优化更新，并得�
 
 根据(15)中的两个约束条件，两个拉格朗日乘子$\lambda_1$，$\lambda_2$的关系见如下图:
 
-![图6](/images/posts/machine learning/support vector machine/img6.JPG)
+![图6](/img/posts/machine learning/support vector machine/img6.JPG)
 其中左图对应$y_1 \neq y_2$，右图对应$y_1 = y_2$。则若$0 \leq \lambda_1 \leq C$，根据上面的关系我们可以得到$\lambda_2$的范围：
 
 $$
@@ -634,7 +634,7 @@ plt.show()
 
 该函数主要画出了二维数据的分离超平面。如下：
 
-![图7](/images/posts/machine learning/support vector machine/img7.jpg)
+![图7](/img/posts/machine learning/support vector machine/img7.jpg)
 
 图中圈圈表示的是支持向量，有人可能会问为什么支持向量不在最边界上靠近的点上选择呢? 这是因为我们上面讲的 $C$ 的原因，它的作用是既要保证margin尽量大，
 又要保证数据分类尽量正确。本例子数据完全可以线性分离，因此可能会看上去支持向量选择的并不好。**当数据无法完全线性分离时， C 的作用才会明显，它将使

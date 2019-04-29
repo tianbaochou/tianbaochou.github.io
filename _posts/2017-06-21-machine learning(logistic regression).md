@@ -26,7 +26,7 @@ $$
 
 其图像如下:
 
-![图1](/images/posts/machine learning/machine learning foundation/logistic regression/image1.jpg){:with=”500px” height=”422px”}
+![图1](/img/posts/machine learning/machine learning foundation/logistic regression/image1.jpg){:with=”500px” height=”422px”}
 
 ## **1.2. Cost Function**
 
@@ -42,7 +42,7 @@ $$
 
  当**y=1**时,其函数图像类似如下:
 
-![图2](/images/posts/machine learning/machine learning foundation/logistic regression/image2.jpg)
+![图2](/img/posts/machine learning/machine learning foundation/logistic regression/image2.jpg)
 
 从上图可以看出当$h_{\theta}(x)$接近1时，代价接近0, 当$h_{\theta}(x)$接近0时，
 其代价无穷大。
@@ -50,7 +50,7 @@ $$
 
 当**y=0**时,其函数图像类似如下:
 
-![图3](/images/posts/machine learning/machine learning foundation/logistic regression/image3.jpg)
+![图3](/img/posts/machine learning/machine learning foundation/logistic regression/image3.jpg)
 
 从上图可以看出当$h_{\theta}(x)$接近0时，代价接近0, 当$h_{\theta}(x)$接近1时，
 其代价无穷大。

@@ -42,7 +42,7 @@ python包入手快的工具，网上很多推荐用anaconda，然而安装过大
 
 &ensp; conda的环境有点像git的版本，当前处于某个环境将会在该环境名前面带\*，如下所示：
 
-![图1-1](/images/posts/python/image1_1.PNG)
+![图1-1](/img/posts/python/image1_1.PNG)
 
 | 功能 | 命令     |
 | :------------- | :------------- |
@@ -75,7 +75,7 @@ python包入手快的工具，网上很多推荐用anaconda，然而安装过大
 &ensp; 上面说了安装package可以用 ``` pip install xxx ```或者 ``` conda install xxx ```，当装packages后，若该package为pip管理，则会在package后面
 提示：
 
-![图1-2](/images/posts/python/image1_2.PNG)
+![图1-2](/img/posts/python/image1_2.PNG)
 
 如上，see为pip安装的，故在后面有 ``` <pip> ```符号。
 

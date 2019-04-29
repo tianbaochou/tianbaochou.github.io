@@ -17,17 +17,17 @@ tag: machine learning
 
  假设有10组数据$X$，其特征维度为2:
 
- ![图1](/images/posts/machine learning/pca/img1.JPG)
+ ![图1](/img/posts/machine learning/pca/img1.JPG)
 
  我们为了使数据看起来更加'对称'，首先将数据$X$减去平均值$\bar{X}$得到：
 
- ![图2](/images/posts/machine learning/pca/img2.JPG)
+ ![图2](/img/posts/machine learning/pca/img2.JPG)
 
 这个做法相当于将原先的坐标轴移动到下图的mean位置。 那么还有没有更好的一个坐标轴能够**使数据投影在该坐标轴上的方差总和最大**。
 也许你会问为什么要使数据投影在该坐标轴上的方差总和最大，这是因为当方差总和最大时，一般数据点投影后重合率较小，即在该坐标轴上
 数据可以被很好的分类。这个坐标轴就是如下图的粗虚线的主轴。
 
-![图3](/images/posts/machine learning/pca/img3.JPG)
+![图3](/img/posts/machine learning/pca/img3.JPG)
 
 这个主轴就是PCA中的第一个轴，在本例中，如果我们将2维的数据降为1维，那么降维后的数据值就是在主轴上的投影值。
 现在我们的问题是如何找到这个主轴，下面我们将引出PCA的原理。
@@ -132,7 +132,7 @@ $$
 重新映射回原先的坐标系后和原先的一致，没有丢失信息!
 为了方便比较$X_{back}$与$X$。我们降一个二维的数据集，降到一维，并重新映射回原先的坐标系，得到如下：
 
-![图四](/images/posts/machine learning/pca/img4.png)
+![图四](/img/posts/machine learning/pca/img4.png)
 
 上图中红色的部分为重新投影回的数据，可以看出，该数据的方向与本专题引入的例子first principal component类似。
 

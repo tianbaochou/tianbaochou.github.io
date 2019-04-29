@@ -268,7 +268,7 @@ $$
 
 其更新步骤示意如下图：
 
-![图一](/images/posts/machine learning/adaboost/img1.jpg)
+![图一](/img/posts/machine learning/adaboost/img1.jpg)
 
 
 ## **2. AdaBoost算法核心代码**

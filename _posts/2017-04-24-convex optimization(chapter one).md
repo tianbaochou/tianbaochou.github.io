@@ -27,7 +27,7 @@ tag: convex optimization
 
 &ensp; 数学上的凸函数和直观上是相反的： 凸函数 $ \Leftrightarrow $函数epigraph是一个凸集，以大家最熟悉的二次函数为例:   
 
-![图1-1](/images/posts/convex optimization/chapter one/chapter_one_1.PNG)
+![图1-1](/img/posts/convex optimization/chapter one/chapter_one_1.PNG)
 
 &ensp; 上图中阴影部分为函数f(x)的epigraph,它是一个convex set:
 $$
