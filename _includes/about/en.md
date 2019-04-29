@@ -1,6 +1,6 @@
 
 
-![img](/img/post_bg/post-bg-flow.jpg)
+![img](/img/about-bg-walle.jpg)
 
 ## 写博客目的
 
