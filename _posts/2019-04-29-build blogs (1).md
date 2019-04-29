@@ -68,7 +68,7 @@ tag: markdown
 
     + 将`comments.html`插入到`_layout/post.html`中的`post-contianer`容器最下面
      
-     ```html
+     ```
          <!-- Post Container -->
             <div class="
                 col-lg-8 col-lg-offset-2
@@ -85,7 +85,7 @@ tag: markdown
 
 在`_include/head.html`的`<head> </head>`之间添加`mathjax`支持
 
-```html
+```
     <!-- latex 支持 -->
     <script type="text/x-mathjax-config"> 
         MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); 
