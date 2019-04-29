@@ -79,10 +79,9 @@ tag: markdown
                 col-md-10 col-md-offset-1
                 post-container">
 
-                <!--.......--->
                 
-                     <!--gitalk-->
-                {% include comments.html %}
+                 <!--添加gitalk， 将下面的注释去掉即可）-->
+                 <!--{% include comments.html %}-->
             </div>
      ```
 
