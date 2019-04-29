@@ -36,7 +36,7 @@ tag: markdown
 
     + 添加`comments.html`到`_include/`文件夹下，添加如下内容: 
 
-        ```javascript
+        ```JS
 
         <section class="post-comments">
         <div id="gitalk-container"></div> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
@@ -71,7 +71,7 @@ tag: markdown
     + 将`comments.html`插入到`_layout/post.html`中的`post-contianer`容器最下面
 
      
-     ```javascript
+     ```JS
 
          <!-- Post Container -->
             <div class="
@@ -90,7 +90,7 @@ tag: markdown
 
 在`_include/head.html`的`<head> </head>`之间添加`mathjax`支持
 
-```javascript
+```JS
 
     <!-- latex 支持 -->
     <script type="text/x-mathjax-config"> 
