@@ -7,7 +7,7 @@ tag: markdown
 ---
 
 ## **前言**
-<p style="color:yellow ;font-size:3.em;front-weight:bold">模板来源： https://github.com/Huxpro/huxpro.github.io
+<p style="color:red ;font-size:3.em;front-weight:bold">模板来源： https://github.com/Huxpro/huxpro.github.io
 </p>
 
 ## 1. 准备工具
@@ -142,11 +142,5 @@ tags:
 ### 这里是内容！！！！！！！
 
 ```
-
-
-## 附录
-
-申请Goddy
-
 
 
