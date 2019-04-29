@@ -38,7 +38,7 @@ tag: markdown
 
     + 添加`comments.html`到`_include/`文件夹下，添加如下内容: 
 
-        ```html
+        ```bash
         <section class="post-comments">
         <div id="gitalk-container"></div> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
         <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
@@ -76,7 +76,7 @@ tag: markdown
 
 在`_include/head.html`的`<head> </head>`之间添加`mathjax`支持
 
-```html
+```bash
     <!-- latex 支持 -->
     <script type="text/x-mathjax-config"> 
         MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); 
