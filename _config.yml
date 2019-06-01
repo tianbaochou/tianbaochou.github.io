@@ -74,7 +74,6 @@ createIssueManually : true
 netease_comment: false
 
 
-
 # Analytics settings
 # Baidu Analytics 
 # ba_track_id: [your track id]
@@ -112,9 +111,6 @@ page-mathjax: false
 # Friends
 friends: [
     {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
         title: "CS231N",
         href: "http://cs231n.stanford.edu/"
     },{
